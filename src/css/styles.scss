@@ -148,7 +148,7 @@ h1 {
         transition: color 200ms ease-in-out;
 
         @include mq($bp-xxwide) {
-          font-size: .7rem;
+          font-size: .65rem;
         }  
       }
 
@@ -200,7 +200,7 @@ h1 {
 
           .list-title {
             border-bottom: 1px solid #cfcfcf;
-            font-size: .8rem;
+            font-size: .7rem;
             font-weight: 700;
             margin-bottom: 15px;
             padding-bottom: 5px;
@@ -216,8 +216,6 @@ h1 {
     }
   }
 }
-
-
 
 .dashboard-nav-icon {
   width: 35px;

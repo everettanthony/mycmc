@@ -72,6 +72,7 @@
 			const hasParentNav = e.currentTarget.classList.contains('parent-nav');
 			if (active) {
 				active.classList.remove('active');
+				closeSubNav();
 			}
 			e.currentTarget.classList.add('active');
 
